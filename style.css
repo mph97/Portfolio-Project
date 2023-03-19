@@ -1,0 +1,137 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+nav {
+  background-color: #50577A;
+}
+
+body {
+  position: relative;
+}
+
+#home-hero {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding: 20%;
+  color: #ffffff;
+  text-shadow: 1px 3px 2px black;
+  text-align: center;
+}
+
+#hero-img {
+  border: solid 6px rgba(0,0,0,0.3);
+  border-radius: 50%; 
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 30px;
+} 
+
+section {
+  padding: 30px;
+}
+
+section#mission-section {
+  background-color: #404258;
+  color: #ffffff;
+}
+
+ #mission-section img {
+   padding-left: 20px;
+} 
+
+ #mission-section p {
+  padding-top: 10px;
+  padding-right: 10px;
+} 
+
+section#skills-section {
+  background-color: #6B728E;
+  font-size: 18px;
+}
+
+section#inspiration-section {
+  background-color: #404258;
+  color: #ffffff;
+}
+
+section#contact-section {
+  background-color: #6B728E;
+}
+
+section#footer-section {
+  background-color: #404258;
+  font-style: italic;
+  font-size: 75%;
+  padding: 2em;
+}
+
+#mission-target, #skills-target, 
+#inspiration-target, #contact-target {
+  position: relative;
+  top: -85px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vw;
+  overflow: hidden;
+  /*   height: 50vh;
+  min-height: 200px; */
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+.carousel-caption h5 {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+#skills-section i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 100px;
+}
+
+#contact-section a {
+  text-decoration: none;
+}
+
+#contact-section i:hover {
+  color: blue;
+}
+
+#contact-section i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 60px;
+  color: #ecd9e4;
+}
+
+footer {
+  color: white;
+}
+
+

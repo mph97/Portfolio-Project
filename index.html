@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <script src="https://tinyurl.com/2p9w5adj"></script>
+    <!-- TODO: Replace this with your title -->
+    <title>Matthew Holland's Portfolio</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+  <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <div class="container">
+        <a href="#home-hero" id="hero-target" class="navbar-brand">
+          <i class="bi bi-house-door-fill"></i>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#mission-target" class="nav-link">Mission</a>
+            <a href="#skills-target" class="nav-link">Skills</a>
+            <a href="#inspiration-target" class="nav-link">Inspiration</a>
+            <a href="#contact-target" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Hero section -->
+	<section id="home-hero">
+    <div id="hero-target"></div>
+    <img id="hero-img" src="img/headshot.jpg" width="50" height="50" alt="headshot"><br><br>
+    <h1>Matthew Holland</h1>
+    <br>
+    <h3 class="fst-italic fw-normal">A forever student of coding</h3>
+	</section>
+  
+	<!-- Mission/Meet-me section -->
+    <div class="d-none d-md-block">
+      <section id="mission-section">
+      <div id="mission-target"></div>
+      <div class="container">
+        <h2 class="text-center text-decoration-underline">Mission</h2><br>
+        <div class="row">
+          <div class="col-6">
+            <img src="img/mission.jpg" class="d-block w-75" alt="computer screen showing code">
+          </div>
+          <div class="col-6">
+            <p>My mission is to be able to design professional-grade websites that are both fluid and accessible to all users. I'm currently learning from a number of skilled instructors and industry experts how to code for the web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="d-block d-md-none">
+      <section id="mission-section">
+      <div id="mission-target"></div>
+      <div class="container">
+        <h2 class="text-center text-decoration-underline">Mission</h2><br>
+        <div class="row">
+          <div class="col text-center">
+            <img src="img/mission.jpg" class="d-block w-100" alt="computer screen showing code">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p class="text-center">My mission is to be able to design professional-grade websites that are both fluid and accessible to all users. I'm currently learning from a number of skilled instructors and industry experts how to code for the web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+
+  
+  <!-- Skills section -->
+
+<!--     View on smaller screens -->
+
+    <div class="d-block d-md-none">
+
+      <section id="skills-section">
+      <div id="skills-target"></div>
+      <div class="container-fluid">
+        <h2 class="text-center text-decoration-underline">Skills</h2>
+        <br>
+
+        <div class="row">
+        <div class="col-sm-12">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <p  class="text-center">Creating structured<br> web pages with HTML </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <i class="devicon-css3-plain-wordmark"></i>
+          <p class="text-center">Enhancing the presensation<br> of web content with CSS</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <p  class="text-center">Rapidly creating responsive<br> websites with Bootstrap</p>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col-sm-12">
+          <i class="devicon-java-plain-wordmark"></i>
+          <p class="text-center">Developing software with<br> one of the most popular 
+          coding languages</p>
+        </div>
+      </div>
+        
+      </div>
+  
+  	</section>
+ 
+    </div>
+
+<!--     view on medium screens -->
+
+    <div class="d-none d-md-block d-lg-none">
+
+      <section id="skills-section">
+      <div id="skills-target"></div>
+      <div class="container-fluid">
+        <h2 class="text-center text-decoration-underline">Skills</h2><br>
+        <div class="row">
+          <div class="col-md-6">
+            <i class="devicon-html5-plain-wordmark"></i>
+            <p  class="text-center">Creating structured<br> web pages with HTML </p>
+  
+            <i class="devicon-css3-plain-wordmark"></i>
+            <p class="text-center">Enhancing the presensation<br> of web content with CSS</p>
+          </div>
+  
+          <div class="col-md-6">
+            <i class="devicon-bootstrap-plain-wordmark"></i>
+            <p  class="text-center">Rapidly creating responsive<br> websites with Bootstrap</p>
+  
+            <i class="devicon-java-plain-wordmark"></i>
+            <p class="text-center">Developing software with<br> one of the most popular 
+          coding languages</p>
+          </div>
+        </div>
+      </div>
+  
+  	</section>
+ 
+    </div>
+
+<!--     view on larger screens -->
+  <div class="d-none d-lg-block">
+    <section id="skills-section">
+    <div id="skills-target"></div>
+    <div class="container-fluid">
+      <h2 class="text-center text-decoration-underline">Skills</h2><br>
+      <div class="row">
+        <div class="col-lg-3">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <p  class="text-center">Creating structured<br> web pages with HTML </p>
+        </div>
+
+        <div class="col-lg-3">
+          <i class="devicon-css3-plain-wordmark"></i>
+          <p class="text-center">Enhancing the presensation<br> of web content with CSS</p>
+        </div>
+
+        <div class="col-lg-3">
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <p  class="text-center">Rapidly creating responsive<br> websites with Bootstrap</p>
+        </div>
+
+        <div class="col-lg-3">
+          <i class="devicon-java-plain-wordmark"></i>
+          <p class="text-center">Developing software with<br> one of the most popular 
+          coding languages</p>
+        </div>
+      </div>
+    </div>
+
+	</section>
+    
+  </div>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section">
+    <div id="inspiration-target"></div>
+    <div class="container-fluid text-center pb-4">
+      <h2 class="text-center text-decoration-underline">Inspiration</h2><br>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/inspo-1.jpg" class="d-block w-100" alt="author Paulo Coelho">
+            <div class="carousel-caption d-md-block">
+              <h5>"When we strive to become better than we are, everything around us becomes better, too."</h5>
+              <p>Paulo Coelho</p>
+            </div>
+          </div>
+      <div class="carousel-item">
+        <img src="img/inspo-2.jpg" class="d-block w-100" alt="actor Will Smith">
+        <div class="carousel-caption d-md-block">
+          <h5>"The first step is you have to say that you can."</h5>
+          <p>Will Smith</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/inspo-3.jpg" class="d-block w-100" alt="physicist Albert Einstein">
+        <div class="carousel-caption d-md-block">
+          <h5>"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."</h5>
+          <p>Albert Einstein</p>
+        </div>
+      </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+		
+  </section>
+
+  <!-- Contact Section -->
+
+<!--     viewed on smaller screens -->
+      <div class="d-block d-md-none">
+
+      <section id="contact-section">
+      <div id="contact-target"></div>
+      <div class="container">
+      
+        <h2 class="text-center text-decoration-underline">Contact</h2>
+        <br>
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="https://www.linkedin.com/in/matthew-holland-04aa3521a/" target="_blank">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+          </div>
+        </div><br>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="https://github.com/mph97?tab=repositories" target="_blank">
+              <i class="devicon-github-original-wordmark colored"></i>
+            </a>
+          </div>
+        </div><br>
+        
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="mailto:mphollan@asu.edu" target="_blank">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+  
+      </section>
+      
+    </div>
+
+    
+<!--     Viewed on larger screens -->
+    <div class="d-none d-md-block">
+
+      <section id="contact-section">
+      <div id="contact-target"></div>
+      <div class="container">
+      
+        <h2 class="text-center text-decoration-underline">Contact</h2>
+        <br>
+        <div class="row">
+          <div class="col-4">
+            <a href="https://www.linkedin.com/in/matthew-holland-04aa3521a/" target="_blank">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+            
+          </div>
+
+          <div class="col-4">
+            <a href="https://github.com/mph97?tab=repositories" target="_blank">
+              <i class="devicon-github-original-wordmark colored"></i>
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a href="mailto:mphollan@asu.edu" target="_blank">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+  
+      </section>
+      
+    </div>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <div id="footer-target"></div>
+    <footer class="text-center">
+      &copy; Matthew Holland 2023
+    </footer>
+  </section>
+
+  <!-- 
+		TODO: Paste Bootstrap JavaScript script tag from:
+		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	
+  </body>
+</html>
+
+<!-- TODO: Describe what you did to add SIZZLE below!
+
+
+
+
+
+-->
